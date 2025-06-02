@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Insights Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #111;
+    }
+    .insight-box {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .label {
+      font-size: 14px;
+      color: #666;
+    }
+    .value {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    .note {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #888;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 20px auto;
+      background-color: #ff0050;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My TikTok Insights Dashboard</h1>
+
+  <a href="#" class="btn">Connect with TikTok</a>
+
+  <div class="insight-box">
+    <div class="label">Follower Count</div>
+    <div class="value">12,345</div>
+  </div>
+
+  <div class="insight-box">
+    <div class="label">Total Likes</div>
+    <div class="value">89,000</div>
+  </div>
+
+  <div class="insight-box">
+    <div class="label">Video Views (last 7 days)</div>
+    <div class="value">45,678</div>
+  </div>
+
+  <p class="note">
+    * This data is mock data and will be retrieved via the TikTok API using scopes like <code>user.info.stats</code> and <code>video.list</code>.
+  </p>
+
+</body>
+</html>
